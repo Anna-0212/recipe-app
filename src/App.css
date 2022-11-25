@@ -13,18 +13,18 @@ video {
 }
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .search {
-  width: 100%;
+  width: 90%;
   padding: 12px 24px;
   background-color: transparent;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 18px; 
   color: #575756;
-  background-color: transparent;
   margin-left: 0px;
-  box-shadow: inset 0px 0px 0px 4px #ddd6e8;
+  box-shadow: inset 0px 0px 0px 4px #ddd6e8; 
 }
 .icon {
   width: 32px;
@@ -58,4 +58,7 @@ button {
   border: none;
   border-radius: 12px;
   margin-top: 10px;
+}
+.image {
+  border: 20px solid white;
 }
